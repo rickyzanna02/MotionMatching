@@ -123,9 +123,7 @@ We tested all the movement imputs listed below:
 | **C**        | Crouch                                         |
 | **Mouse wheel** | Lock the character’s camera view            |
 
-<p align="center">
-  <video src="demo_video.mp4" width="90%" controls></video>
-</p>
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/V1mlI2HkONM/0.jpg)](https://www.youtube.com/watch?v=V1mlI2HkONM "Motion Matching Unreal Engine Demo")
 
 # 👥 Authors
 
