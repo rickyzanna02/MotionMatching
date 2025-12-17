@@ -39,6 +39,7 @@ Enable the following **Plugins** in UE:
 
 Here we put only the most important files of our project:
 
+
 # 📋 Implementation
 
 ## Motion Matching and Retargeting
@@ -58,16 +59,30 @@ Here we put only the most important files of our project:
 
 Note: To visualize the trajectory, simply add the Character Trajectory to the character component. Then, from the Unreal Engine console, run the following command: ```a.CharacterTrajectory.Debug 1```
 
+(TODO: insert screenshot dell'omino arancione)
+
 ## Metahuman 
 
-### 1.
-### 2.
-### 3.
-### 4.
-
+1. We export a ready-to-use MetaHuman (1).
+2. We explore the MetaHuman Creator in Unreal Engine and create a custom MetaHuman (2).
+3. We replace the materials and textures of (1) with those from our custom MetaHuman (2).
+4. Motion Matching now works correctly with our custom MetaHuman.
 
 
 # 🎮 Results
+
+Here you have a demonstration of the implemented system.
+We tested all the movement imputs listed below:
+
+| Input        | Action                                         |
+|--------------|------------------------------------------------|
+| **WASD**     | Move the character forward, backward, left, and right |
+| **Space**    | Jump                                           |
+| **Ctrl**     | Walk                                           |
+| **C**        | Crouch                                         |
+| **Mouse wheel** | Lock the character’s camera view            |
+
+(TODO: insert video)
 
 # 👥 Authors
 
