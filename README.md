@@ -123,26 +123,11 @@ We tested all the movement imputs listed below:
 | **C**        | Crouch                                         |
 | **Mouse wheel** | Lock the character’s camera view            |
 
-(TODO: insert video)
+<p align="center">
+  <video src="demo_video.mp4" width="90%" controls></video>
+</p>
 
 # 👥 Authors
 
 Nicola Cappellaro - nicola.cappellaro@studenti.unitn.it  
 Riccardo Zannoni  - riccardo.zannoni@studenti.unitn.it
-
-
-
-<p align="center">
-  <img src="gif_results/04_yolo.gif" width="45%" />
-  <img src="gif_results/03_final_mocap.gif" width="45%" />
-</p>
-
-
-<p align="center">
-  <img src="gif_results/UE_render.gif" width="90%" />
-</p>
-
-
-
-
-[![Guarda il video](https://www.youtube.com/watch?v=JNNqm3a2oZQ)](https://www.youtube.com/watch?v=JNNqm3a2oZQ)
