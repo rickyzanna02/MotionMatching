@@ -13,6 +13,7 @@
 
 
 # 🎯 Project Goal
+This is the project of the Computer Graphics course of the University of Trento.  
 The purpose of this project is to become familiar with **Motion Matching**, **Retargeting** and  **MetaHuman** in **Unreal Engine 5**, exploring their workflows and practical applications in character animation.
 
 - **Motion Matching**: is an animation technique that dynamically selects the most appropriate animation pose from a large database of motion data in real time. Instead of relying on predefined animation states and transitions, the system continuously compares the character’s current pose and movement intent with the available animation data, resulting in smoother, more natural, and more responsive character movement.
@@ -73,20 +74,24 @@ Here we put only the most important files of our project:
 <p align="center">
   <img src="images/ABP_EventGraph.png" width="90%" />
 </p>
+
 9. Build the following graph in the AnimGraph in Animation BluePrint
 <p align="center">
   <img src="images/ABP_AnimGraph.png" width="90%" />
 </p>
+
 10. Build the following graph in the OnUpdate in Animation BluePrint
 <p align="center">
   <img src="images/ABP_OnUpdate.png" width="90%" />
 </p>
+
 11. Create a Chooser Table: chooser type: Animation Chooser, Anim Class: ABP_MQ; output: PoseSearchDatabase.  
     Fill the table with 5 row for every action (idle, walk, run, jump, crouch) and 3 column for speed, isFalling and is Crouching.
 12. Configure the table values to match the setup shown in the following image: 
 <p align="center">
   <img src="images/CHT_States.png" width="90%" />
 </p>
+
 13. add the following graph to the Third Person Controller:
 <p align="center">
   <img src="images/ThirtPersonContoller_EventGraph.png" width="90%" />
@@ -123,7 +128,14 @@ We tested all the movement imputs listed below:
 | **C**        | Crouch                                         |
 | **Mouse wheel** | Lock the character’s camera view            |
 
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/V1mlI2HkONM/0.jpg)](https://www.youtube.com/watch?v=V1mlI2HkONM "Motion Matching Unreal Engine Demo")
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=V1mlI2HkONM">
+    <img src="images/video_cover.png"
+         alt="Motion Matching Unreal Engine Demo"
+         style="width:90%; max-width:90%;" />
+  </a>
+</p>
+
 
 # 👥 Authors
 
